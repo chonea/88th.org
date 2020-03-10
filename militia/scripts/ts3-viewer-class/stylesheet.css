@@ -1,0 +1,122 @@
+/* $Id: stylesheet.css 38 2011-09-05 15:41:35Z bRunO $ */
+
+.ts3table {
+    width: 100%;
+		font-family: 'Aldrich';
+}
+
+.ts3table h1, .ts3table h2, .ts3table h3, .ts3table h4, .ts3table h5 {
+    /*
+		color: #36F;
+		*/
+}
+
+.ts3table h2 {
+	height: 30px;
+	margin: 0 0 15px 0;
+	text-align: right;
+}
+.ts3table h2 a {
+	display: block;
+	height: 30px;
+	background: transparent url('../../images/88th_navigation_buttons_13.png') right -10px no-repeat;
+	padding: 0 60px 0 0;
+	margin: 0;
+	text-align: right;
+	line-height: 30px;
+}
+.ts3table h2 a:hover {
+	background-position: right -90px;
+}
+
+.ts3table .bg,
+.ts3table tbody {
+    border: none;
+}
+
+.ts3table a:link, .ts3table a:visited {
+    /*
+    color: #36F;
+    text-decoration: none;
+    border-bottom: 2px solid #36F;
+    font-weight: bold;
+		*/
+}
+
+.ts3table a:active, .ts3table a:hover {
+		/*
+    text-decoration: none;
+    border-bottom: 2px dotted #36F;
+		*/
+}
+
+.ts3banner {
+    max-width: 500px;
+}
+
+.ts3ca {
+    font-size: 14px;
+    float: right;
+    min-width: 20px;
+}
+
+.ts3na {
+    font-size: 14px;
+    float: left;
+    min-width: 20px;
+}
+
+.ts3legend {
+    font-size: 14px;
+}
+
+.ts3legend img {
+    margin-bottom: -2px;
+}
+
+.ts3head img {
+    margin-bottom: -1px;
+}
+
+.ts3stats {
+    width: 100%;
+    white-space: nowrap;
+    border: none;
+		font-family: 'Aldrich';
+}
+
+.ts3statsle {
+    font-weight:  bold;
+}
+
+.ts3stats td {
+    font-size: 12px;
+    padding: 5px;
+		border: none;
+}
+
+.ts3spacer {
+    width: 20px;
+    float: left;
+}
+
+.ts3clear {
+    clear: both;
+}
+
+.ts3spacer_center {
+    text-align: center;
+}
+
+.ts3spacer_right {
+    text-align: right;
+}
+
+.ts3spacer_left {
+    text-align: left;
+}
+
+.ts3spacer_repeat {
+    text-align: center;
+    overflow: hidden;
+}
